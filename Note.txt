@@ -13,3 +13,7 @@ C:\react\my-rollup-project>mkdir src
 C:\react\my-rollup-project>rollup src/main.js -f cjs
 The -f option (short for --format) specifies what kind of bundle we're creating — in this case, CommonJS
 (which will run in Node.js). Because we didn't specify an output file, it will be printed straight to stdout:
+
+C:\react\my-rollup-project>rollup src/main.js -o bundle.js -f cjs
+
+
