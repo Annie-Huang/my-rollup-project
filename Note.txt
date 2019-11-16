@@ -45,3 +45,13 @@ undefined
 =================================================
 As you build more complex bundles, you'll often need more flexibility –
 importing modules installed with NPM, compiling code with Babel, working with JSON files and so on.
+
+=================================================
+bundle.min.js:
+var version = function () {
+    "use strict";
+    var n = "1.0.0";
+    return function () {
+        console.log("version " + n)
+    }
+}();
