@@ -1,6 +1,8 @@
 https://rollupjs.org/guide/en/#introduction
 https://github.com/Annie-Huang/my-rollup-project
 
+https://github.com/rollup/awesome       << Great list of all the plugins...
+
 ===============================================================
 
 C:\react>mkdir my-rollup-project
@@ -26,7 +28,7 @@ C:\react\my-rollup-project>npm init -y
 C:\react\my-rollup-project>npm install rollup --save-dev
 C:\react\my-rollup-project>del bundle.js
 C:\react\my-rollup-project>npm run build
-
+C:\react\my-rollup-project>npm install --save-dev rollup-plugin-json
 
 ============================================================================
 
@@ -39,3 +41,6 @@ undefined
 hello world!
 undefined
 
+=================================================
+As you build more complex bundles, you'll often need more flexibility –
+importing modules installed with NPM, compiling code with Babel, working with JSON files and so on.
