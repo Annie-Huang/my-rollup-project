@@ -18,6 +18,11 @@ C:\react\my-rollup-project>rollup src/main.js -o bundle.js -f cjs
 C:\react\my-rollup-project>del bundle.js
 C:\react\my-rollup-project>rollup -c            <<< --config or -c
 
+C:\react\my-rollup-project>rollup -c -o bundle-2.js
+    You can override any of the options in the config file with the equivalent command line options:
+    `-o` is equivalent to `--file` (formerly "output")
+
+
 ============================================================================
 
 Do this in gitbash:
