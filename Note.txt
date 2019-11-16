@@ -29,6 +29,7 @@ C:\react\my-rollup-project>npm install rollup --save-dev
 C:\react\my-rollup-project>del bundle.js
 C:\react\my-rollup-project>npm run build
 C:\react\my-rollup-project>npm install --save-dev rollup-plugin-json
+C:\react\my-rollup-project>npm install --save-dev rollup-plugin-terser
 
 ============================================================================
 
