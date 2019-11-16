@@ -1,3 +1,5 @@
+'use strict';
+
 // src/main.js
 // import foo from './foo.js';
 //
@@ -19,6 +21,8 @@
 /////////////////////////////////////////////////////////
 
 // src/main.js
-export default function () {
-    import('./foo.js').then(({ default: foo }) => console.log(foo));
+function main () {
+    new Promise(function (resolve) { resolve(require('./foo-1c923328.js')); }).then(({ default: foo }) => console.log(foo));
 }
+
+module.exports = main;

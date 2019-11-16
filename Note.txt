@@ -31,6 +31,14 @@ C:\react\my-rollup-project>npm run build
 C:\react\my-rollup-project>npm install --save-dev rollup-plugin-json
 C:\react\my-rollup-project>npm install --save-dev rollup-plugin-terser
 
+C:\react\my-rollup-project>rollup src/main.js -f cjs -d dist            vs 'rollup src/main.js -f cjs'
+    Rollup will use the dynamic import to create a separate chunk that is only loaded on demand.
+    In order for Rollup to know where to place the second chunk, instead of passing the --file option
+    we set a folder to output to with the --dir option:
+
+    This will create a folder dist containing two files, main.js and chunk-[hash].js, where [hash] is a content based hash string.
+    You can supply your own naming patterns by specifying the output.chunkFileNames and output.entryFileNames options.
+
 ============================================================================
 
 Do this in gitbash:

@@ -4,7 +4,8 @@
   "description": "",
   "main": "bundle-2.js",
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup --config",
+    "build-with-code-split": "rollup src/main.js -f cjs -d dist"
   },
   "repository": {
     "type": "git",
