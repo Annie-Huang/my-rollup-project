@@ -49,6 +49,13 @@ C:\react\my-rollup-project>rollup src/main.js src/main2.js -f cjs
 C:\react\my-rollup-project>npm run build-with-code-split-with-two-entries
     A different use for code-splitting is the ability to specify several entry points that share some dependencies.
 
+C:\react\my-rollup-project>rollup src/main.js src/main2.js -f esm -d dist           <<< ESM stands for ES Modules.
+C:\react\my-rollup-project>npm run build-with-code-split-with-two-entries-esm
+Rename dist/main.js and dist/main2.js to main-esm.js and main2-esm.js
+
+C:\react\my-rollup-project>rollup src/main.js src/main2.js -f system -d dist        <<<  SystemJS
+C:\react\my-rollup-project>npm run build-with-code-split-with-two-entries-system
+Rename dist/main.js and dist/main2.js to main-system.js and main2-system.js
 
 ============================================================================
 
