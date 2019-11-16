@@ -32,6 +32,7 @@ C:\react\my-rollup-project>npm install --save-dev rollup-plugin-json
 C:\react\my-rollup-project>npm install --save-dev rollup-plugin-terser
 
 C:\react\my-rollup-project>rollup src/main.js -f cjs -d dist            vs 'rollup src/main.js -f cjs'
+C:\react\my-rollup-project>npm run build-with-code-split
     Rollup will use the dynamic import to create a separate chunk that is only loaded on demand.
     In order for Rollup to know where to place the second chunk, instead of passing the --file option
     we set a folder to output to with the --dir option:
@@ -41,6 +42,13 @@ C:\react\my-rollup-project>rollup src/main.js -f cjs -d dist            vs 'roll
 
 C:\react\my-rollup-project>node -e "require('./dist/main.js')()"
 hello world!
+
+C:\react\my-rollup-project>rollup src/main.js -f cjs            << Will just output into stdout
+
+C:\react\my-rollup-project>rollup src/main.js src/main2.js -f cjs
+C:\react\my-rollup-project>npm run build-with-code-split-with-two-entries
+    A different use for code-splitting is the ability to specify several entry points that share some dependencies.
+
 
 ============================================================================
 
