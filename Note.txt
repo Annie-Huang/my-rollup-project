@@ -57,6 +57,9 @@ C:\react\my-rollup-project>rollup src/main.js src/main2.js -f system -d dist    
 C:\react\my-rollup-project>npm run build-with-code-split-with-two-entries-system
 Rename dist/main.js and dist/main2.js to main-system.js and main2-system.js
 
+C:\react\my-rollup-project>npm install --save-dev systemjs
+
+
 ============================================================================
 
 Do this in gitbash:
