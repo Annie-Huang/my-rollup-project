@@ -39,6 +39,9 @@ C:\react\my-rollup-project>rollup src/main.js -f cjs -d dist            vs 'roll
     This will create a folder dist containing two files, main.js and chunk-[hash].js, where [hash] is a content based hash string.
     You can supply your own naming patterns by specifying the output.chunkFileNames and output.entryFileNames options.
 
+C:\react\my-rollup-project>node -e "require('./dist/main.js')()"
+hello world!
+
 ============================================================================
 
 Do this in gitbash:
