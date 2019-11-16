@@ -22,6 +22,7 @@ C:\react\my-rollup-project>rollup -c -o bundle-2.js
     You can override any of the options in the config file with the equivalent command line options:
     `-o` is equivalent to `--file` (formerly "output")
 
+C:\react\my-rollup-project>npm init -y
 
 ============================================================================
 
