@@ -23,6 +23,7 @@ C:\react\my-rollup-project>rollup -c -o bundle-2.js
     `-o` is equivalent to `--file` (formerly "output")
 
 C:\react\my-rollup-project>npm init -y
+C:\react\my-rollup-project>npm install rollup --save-dev
 
 ============================================================================
 
