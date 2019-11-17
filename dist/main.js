@@ -21,7 +21,11 @@
 /////////////////////////////////////////////////////////
 
 // src/main.js
+// import logo from './png-2757379_640.png';
+
+
 function main () {
+    // document.body.appendChild( logo );
     new Promise(function (resolve) { resolve(require('./foo-1c923328.js')); }).then(({ default: foo }) => console.log(foo));
 }
 

@@ -19,6 +19,10 @@
 /////////////////////////////////////////////////////////
 
 // src/main.js
+// import logo from './png-2757379_640.png';
+
+
 export default function () {
+    // document.body.appendChild( logo );
     import('./foo.js').then(({ default: foo }) => console.log(foo));
 }

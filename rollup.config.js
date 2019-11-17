@@ -21,5 +21,5 @@ export default {
             plugins: [terser()]
         }
     ],
-    plugins: [ json() ]
+    plugins: [ json(), image() ]
 };
